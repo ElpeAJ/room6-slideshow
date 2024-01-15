@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 100px auto;
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+  box-shadow: -6px -2px 20px 20px rgba(0, 0, 0, 0.75);
+}
+
+main nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.4);
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+button.right svg {
+  transform: rotate(180deg);
+}
